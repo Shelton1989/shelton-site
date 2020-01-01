@@ -12,7 +12,8 @@ const style = {
         height: 'auto'
     },
     menu: {
-        boxShadow: '0px 6px 31px -8px rgba(61,61,61,0.88)'
+        boxShadow: '0px 6px 31px -8px rgba(61,61,61,0.88)',
+        zIndex: 1000
     }
 }
 

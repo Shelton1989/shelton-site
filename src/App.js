@@ -6,8 +6,10 @@ import PersonalInformation from './views/PersonalInformation';
 import PersonalInfoCTC from './views/PersonalInfoCTA';
 import EducationSection from './views/Education';
 import WorkHistory from './views/WorkHistory';
+import TechnicalSkillSection from './views/TechnicalSkills';
 
 import cv from './helpers/CV';
+import { Divider } from 'semantic-ui-react';
 
 const style = {
   app: {
@@ -21,7 +23,12 @@ const style = {
     display: 'flex'
   },
   workSection: {
-    height: '100vh'
+    marginTop: 100,
+  },
+  skillsSection: {
+    margin: '100px auto',
+    display: 'flex',
+    width: '80%',
   }
 }
 
@@ -44,6 +51,10 @@ function App() {
       </div>
       <div style={style.workSection}>
         <WorkHistory />
+      </div>
+      <Divider />
+      <div style={style.skillsSection}>
+        <TechnicalSkillSection />
       </div>
     </div>
   );

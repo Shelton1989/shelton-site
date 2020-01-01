@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: #454545!important;
 }
 
 code {
@@ -59,5 +60,9 @@ code {
 }
 
 .link:hover {
+  color: rgb(0, 104, 104)!important;
+}
+
+a:hover {
   color: rgb(0, 104, 104)!important;
 }
