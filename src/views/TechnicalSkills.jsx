@@ -37,12 +37,12 @@ const Charts = cv.technical_skills.map((i, k) => {
             }
         },
         fill: {
-            colors: ['#006868'],
+            colors: ['#70e1f5'],
             type: 'gradient',
             gradient: {
                 type: 'horizontal',
                 shadeIntensity: 0.7,
-                gradientToColors: [cv.document_details.theme.green]
+                gradientToColors: ['#ffd194']
             }
         }
     }
