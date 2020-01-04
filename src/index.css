@@ -40,6 +40,12 @@ code {
 	animation: float 6s ease-in-out infinite;
 }
 
+.floating-project {
+  box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
 .profile-header {
   background: #70e1f5;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #ffd194, #70e1f5);  /* Chrome 10-25, Safari 5.1-6 */
@@ -63,6 +69,29 @@ code {
   color: rgb(0, 104, 104)!important;
 }
 
+a {
+  color: #009d9d
+}
+
 a:hover {
   color: rgb(0, 104, 104)!important;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background: linear-gradient(to bottom, #ffd194, #70e1f5);
+}
+
+.tech-panel:hover {
+  box-shadow: 0 4px 20px 2px rgba(0,0,0,0.6);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.projects-container {
+  background: #efefef;
+  padding: 150px 0;
 }

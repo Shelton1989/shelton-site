@@ -55,6 +55,7 @@ const Charts = cv.technical_skills.map((i, k) => {
     return (
         <Grid.Column
             key={k}
+            className="tech-panel"
         >
             <Chart 
                 type="bar"

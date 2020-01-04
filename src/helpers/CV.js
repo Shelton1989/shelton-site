@@ -21,7 +21,7 @@ const cv = {
         street_address: '109 Japan Crescent',
         city: 'Johannesburg',
         postal_code: '2188',
-        summary: `I'm a self-taught Front-End Developer with an eye for detail and a taste for cool technologies. I enjoy problem-solving in between The Mandalorian episodes and the next Marvel or Star Wars instalments. I aim to be a leader in technology sector.`
+        summary: `I'm a self-taught Front-End Developer with an eye for detail and a taste for cool technologies. I enjoy problem-solving in between The Mandalorian episodes and the next Marvel or Star Wars instalments. I aim to be a leader in the technology sector.`
     },
     education: [
         {
@@ -180,6 +180,10 @@ const cv = {
                     name: 'Microsoft Azure App Services',
                     rating: '4'
                 },
+                {
+                    name: 'Microsoft Azure Blob Store',
+                    rating: '3'
+                }
             ]
         },
         {
@@ -313,8 +317,8 @@ const cv = {
             summary: `A website built with React and Redux and uses Materialize based on Google’s material. The site is a corporate site for a leading industrial procurement company based in Johannesburg. The site is deployed on a static HTTP server.`,
             link: 'http://www.p3projects.co.za',
             images: [
-                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects/p3_1.PNG",
-                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects/p3_2.PNG"
+                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects-small/p3_1.jpg",
+                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects-small/p3_2.jpg"
             ]
         },
         {
@@ -322,8 +326,8 @@ const cv = {
             summary: `A corporate mobile application built with React Native and Material UI theme. The backend was built with Django Rest Framework and data is stored on a Postgres cloud sql instance. The app is a corporate on-site asset management and job card application for a leading compressor company based in Village Main Johannesburg.`,
             link: null,
             images: [
-                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects/titan_mobile.PNG",
-                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects/titan_desktop.PNG"
+                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects-small/titan_app_2.jpg",
+                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects-small/titan_app_1.jpg"
             ]
         },
         {
@@ -331,8 +335,8 @@ const cv = {
             summary: `A corporate website built with Angular 6 and SASS. The site is a corporate site for a leading compressor company based in Village Main Johannesburg. The site is deployed on a static HTTP server.`,
             link: 'http://www.titanemporium.co.za',
             images: [
-                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects/titan_website_1.PNG",
-                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects/titan_website_2.PNG"
+                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects-small/titan_1.jpg",
+                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects-small/titan_2.jpg"
             ]
         },
         {
@@ -340,8 +344,8 @@ const cv = {
             summary: `A website built with VueJS and uses VueX and VueRouter. It uses Vuetify based on Google’s material. The site is a corporate site for the leading compressor company in Port Elizabeth. The site is deployed on a static HTTP server.`,
             link: 'http://www.gtrentcompressors.co.za',
             images: [
-                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects/gtrent_website_1.PNG",
-                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects/gtrent_website_2.PNG"
+                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects-small/gtrent_1.jpg",
+                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects-small/gtrent_2.jpg"
             ]
         },
         {
@@ -349,8 +353,8 @@ const cv = {
             summary: `A corporate website designed in Adobe Photoshop. Icons and logos made with Adobe Illustrator. Written in HTML5 with standard Search Engine Optimization practices. CSS 3 Pseudo elements were used for overlays. Materialize CSS was used for certain elements. JavaScript was used to provide beautiful effects.`,
             link: 'http://www.inov8inc.co.za',
             images: [
-                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects/inov8_website_1.PNG",
-                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects/inov8_website_2.PNG"
+                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects-small/inov8_1.jpg",
+                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects-small/inov8_2.jpg"
             ]
         },
         {
@@ -358,30 +362,30 @@ const cv = {
             summary: `An art website for a member of a sneaker and clothing customisation group. The site uses JavaScript to provide a parallax effect across the site. A single page site using CSS3 Pseudo elements to darken images. The site uses the Materialize CSS framework and is 100% responsive. It looks great on all devices.`,
             link: 'http://www.benjahminthefaff.co.za',
             images: [
-                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects/benjahmin_website_1.PNG",
-                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects/benjahmin_website_2.PNG"
+                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects-small/ben_1.jpg",
+                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects-small/ben_2.jpg"
             ]
         },
-        {
-            name: 'Shelton Wilson',
-            summary: `This is my personal site and playground. It is constantly changing as I try out new technologies like. At any given time the site will be running a JavaScript framework like React and will be getting different types of data from an API.`,
-            link: 'http://www.sheltonwilson.co.za',
-            images: []
-        },
+        // {
+        //     name: 'Shelton Wilson',
+        //     summary: `This is my personal site and playground. It is constantly changing as I try out new technologies like. At any given time the site will be running a JavaScript framework like React and will be getting different types of data from an API.`,
+        //     link: 'http://www.sheltonwilson.co.za',
+        //     images: []
+        // },
         {
             name: 'ML Document Scanner',
             summary: `A beautiful front-end built with VueJS that allows the user to upload, scan and interpret documents using Machine Learning.`,
             images: [
-                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects/ml_scan_1.png",
-                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects/ml_scan_2.png"
+                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects-small/ml_scan_1.jpg",
+                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects-small/ml_scan_2.jpg"
             ]
         },
         {
-            name: 'ML Clutering Application',
+            name: 'ML Clustering Application',
             summary: `Articles clustered using the K Means clustering algorithm and served to the user through a modern front-end with infinite scrolling.`,
             images: [
-                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects/ml_cluster_1.png",
-                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects/ml_cluster_2.png"
+                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects-small/ml_cluster_1.jpg",
+                "https://storage.cloud.google.com/storeage.appspot.com/storage/projects-small/ml_cluster_2.jpg"
             ]
         }
     ],

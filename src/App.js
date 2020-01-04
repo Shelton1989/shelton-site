@@ -7,6 +7,8 @@ import PersonalInfoCTC from './views/PersonalInfoCTA';
 import EducationSection from './views/Education';
 import WorkHistory from './views/WorkHistory';
 import TechnicalSkillSection from './views/TechnicalSkills';
+import Projects from './views/ProjectsSection';
+import Footer from './components/Footer';
 
 import cv from './helpers/CV';
 import { Divider } from 'semantic-ui-react';
@@ -29,6 +31,20 @@ const style = {
     margin: '100px auto',
     display: 'flex',
     width: '80%',
+  },
+  skillsSectionContainer: {
+    boxShadow: '0 25px 39px -26px rgba(0, 0, 0, 0.6)',
+    width: '100%',
+    padding: '15px 0',
+    zIndex: 1,
+    position: 'relative'
+  },
+  projectsSction: {
+    width: '80%',
+    margin: 'auto'
+  },
+  contactSection: {
+    boxShadow: '0 0 38px -14px rgba(0,0,0,0.6)'
   }
 }
 
@@ -53,8 +69,18 @@ function App() {
         <WorkHistory />
       </div>
       <Divider />
-      <div style={style.skillsSection}>
-        <TechnicalSkillSection />
+      <div style={style.skillsSectionContainer}>
+        <div style={style.skillsSection}>
+          <TechnicalSkillSection />
+        </div>
+      </div>
+      <div className="projects-container">
+        <div style={style.projectsSction}>
+          <Projects />
+        </div>
+      </div>
+      <div style={style.contactSection}>
+        <Footer />
       </div>
     </div>
   );

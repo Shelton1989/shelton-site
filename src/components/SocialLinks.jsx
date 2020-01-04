@@ -17,7 +17,7 @@ const SocialLink = (props) => (
     </a>
 )
 
-const SocialLinks = cv.links[0].social_links.map((c, i) => (
+export const SocialLinks = cv.links[0].social_links.map((c, i) => (
     <Grid.Column key={i} >
         <SocialLink 
             url={c.link}
