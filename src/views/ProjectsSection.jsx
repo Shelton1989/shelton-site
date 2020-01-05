@@ -45,6 +45,7 @@ const Project = (props) => (
 
 const ProjectsList = cv.projects.map((c, i) => (
     <Project 
+        key={i}
         name={c.name}
         images={c.images}
         link={c.link}

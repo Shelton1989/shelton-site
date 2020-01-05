@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-    Menu, Button, Icon
+    Menu
 } from 'semantic-ui-react';
 
 import CV from '../helpers/CV'

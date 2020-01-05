@@ -2,7 +2,7 @@ import React from 'react';
 
 import cv from '../helpers/CV';
 
-import Contact, { SocialLinks } from './SocialLinks'
+import { SocialLinks } from './SocialLinks'
 
 import {
     Grid,
